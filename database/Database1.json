@@ -1,0 +1,25 @@
+{
+	"name": "Database1",
+	"properties": {
+		"Name": "Database1",
+		"EntityType": "DATABASE",
+		"Origin": {
+			"Type": "SPARK"
+		},
+		"Properties": {
+			"IsSyMSCDMDatabase": true
+		},
+		"Source": {
+			"Provider": "ADLS",
+			"Location": "abfss://robeefsn@robeedls.dfs.core.windows.net/Database1",
+			"Properties": {
+				"FormatType": "parquet",
+				"LinkedServiceName": "robeesynapseanalysis-WorkspaceDefaultStorage"
+			}
+		},
+		"PublishStatus": "PUBLISHED",
+		"ObjectVersion": 2,
+		"ObjectId": "6b2244cf-dac5-46f7-995d-542dc55e0d63"
+	},
+	"type": "DATABASE"
+}
